@@ -46,11 +46,11 @@ The Study Planner website allows students to organize their study schedules, tra
    git clone https://github.com/yourusername/study-planner.git
    cd study-planner
    ```
-2. **Install dependencies:
+2. **Install dependencies:**
    ```bash
    npm install
    ```
-3. **Run the application:
+3. **Run the application:**
    ```bash
    npm start
    ```
