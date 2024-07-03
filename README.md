@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Study Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
 
-## Available Scripts
+The Study Planner website allows students to organize their study schedules, track their progress, and manage their tasks effectively. This project utilizes React for the frontend and local storage for data persistence.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Home Page**
+   - Welcome message introducing the study planner.
+   - Navigation bar to access different sections: Home, Add Task, View Tasks, Calendar, About.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Add Task Page**
+   - A form to add a new study task with the following fields:
+     - Task Name
+     - Description
+     - Subject
+     - Due Date
+     - Priority (High, Medium, Low)
+   - Form validation for all fields.
+   - Button to submit the form and save the task.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **View Tasks Page**
+   - Display a list of all tasks.
+   - Each task shows the task name, description, subject, due date, and priority.
+   - Options to edit or delete a task.
+   - Ability to mark tasks as complete.
+   - Filter tasks by subject, priority, or completion status.
 
-### `npm test`
+4. **Calendar Page**
+   - A calendar view to visualize tasks by their due dates.
+   - Highlight dates with tasks and show task details on click.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React
+- CSS (for styling)
+- LocalStorage (for data persistence)
+- FullCalendar (for calendar integration)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/yourusername/study-planner.git
+   cd study-planner
+   ```
+2. **Install dependencies:
+   ```bash
+   npm install
+   ```
+3. **Run the application:
+   ```bash
+   npm start
+   ```
