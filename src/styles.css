@@ -1,0 +1,49 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0em 2em;
+  margin-bottom: 50px;
+}
+
+
+.styled-btn {
+  color: #1f2937; 
+  background: linear-gradient(to right, #99f6e4, #d9f99d); 
+  transition: background 0.3s ease;
+  font-weight: 500; 
+  border-radius: 0.5rem; 
+  font-size: 0.875rem; 
+  padding: 0.625rem 1.25rem; 
+  text-align: center; 
+  margin-inline-end: 0.5rem; 
+  margin-bottom: 0.5rem; 
+  outline: none; 
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.styled-btn:hover {
+  background: linear-gradient(to left, #99f6e4, #d9f99d); /* hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 */
+}
+
+.styled-btn:focus {
+  box-shadow: 0 0 0 0.25rem #d9f99d; /* focus:ring-4 focus:ring-lime-200 */
+}
+
+.styled-btn:focus.dark {
+  box-shadow: 0 0 0 0.25rem #2dd4bf; /* dark:focus:ring-teal-700 */
+}
+
+.styled-btn p{
+  font-size: 15px;
+  text-decoration: none;
+}

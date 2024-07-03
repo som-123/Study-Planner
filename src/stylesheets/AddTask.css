@@ -1,0 +1,77 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    gap: 10px;
+  }
+
+.taskName{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.taskName input{
+    border: none;
+    border-bottom: 1px solid #00000027;
+    outline: none;
+    width: 200px;
+}
+.subject{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.subject input{
+    border: none;
+    border-bottom: 1px solid #00000027;
+    outline: none;
+    width: 200px;
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.date input{
+    border: none;
+    border-bottom: 1px solid #00000027;
+    outline: none;
+    width: 200px;
+}
+
+.priority{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.priority select{
+    border: none;
+    border-bottom: 1px solid #00000027;
+    outline: none;
+    width: 200px;
+}
+
+.description{
+    margin-bottom: 10px;
+}
+
+.description textarea{
+    width: 90%;
+    min-height: 100px;
+    margin-top: 4px;
+    padding: 5px;
+}
+
+.styled-btn{
+    width: 200px;
+    justify-content: center;
+}
